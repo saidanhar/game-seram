@@ -1,2 +1,3 @@
-# game-seram
-sebuah kisah urban legend turun temurun dari masyarakat
+# game-horor
+Game horor indie yang dikembangkan bersama tim
+hgvjhghfhgcghgcgfhfhghvghvbcgfytvjvnbvhvhgvhvnbv bvghcgvhg

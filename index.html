@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Malam Terakhir — Game Horor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="brand">
+      <p class="eyebrow">SEBUAH GAME HOROR 2D</p>
+      <h1>MALAM <span>TERAKHIR</span></h1>
+      <p class="subtitle">Sekolah ini seharusnya sudah kosong.</p>
+    </header>
+
+    <section class="game-shell" aria-label="Area permainan">
+      <canvas id="game" width="960" height="600" aria-label="Game Malam Terakhir"></canvas>
+
+      <div id="menu" class="overlay">
+        <div class="panel">
+          <p class="eyebrow">JANGAN MENENGOK KE BELAKANG</p>
+          <h2 id="overlay-title">KAMU TERLAMBAT PULANG</h2>
+          <p id="overlay-copy">Cari 3 kunci di sekolah tua ini, lalu temukan pintu keluar. Sesuatu sedang mengikutimu.</p>
+          <button id="start-btn">MULAI BERMAIN</button>
+          <p class="controls-note">WASD / tombol panah untuk bergerak · E untuk mengambil · M untuk suara</p>
+        </div>
+      </div>
+
+      <div class="hud">
+        <span id="keys">KUNCI: 0 / 3</span>
+        <span id="status">CARI JALAN KELUAR</span>
+        <span id="sound-state">SUARA: ON</span>
+      </div>
+    </section>
+
+    <footer>
+      <p>Petunjuk: dekati benda bercahaya dan tekan <kbd>E</kbd>. Hindari sosok gelap.</p>
+      <p class="small">Game indie buatan sendiri · Versi 1.0</p>
+    </footer>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
