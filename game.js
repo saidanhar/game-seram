@@ -739,8 +739,8 @@
         const cell = (map[r] && map[r][c]) || "#";
         const x = c * TILE, y = r * TILE;
         if (cell === "#") {
-          ctx.fillStyle = "#292d29"; ctx.fillRect(x, y, TILE, TILE);
-          ctx.fillStyle = "#353a34"; ctx.fillRect(x+2, y+2, TILE-4, 4);
+          ctx.fillStyle = "#433e3a"; ctx.fillRect(x, y, TILE, TILE);
+          ctx.fillStyle = "#555441"; ctx.fillRect(x+2, y+2, TILE-4, 4);
           ctx.fillStyle = "#171b18"; ctx.fillRect(x+3, y+TILE-6, TILE-6, 4);
           ctx.strokeStyle = "#202420"; ctx.strokeRect(x+.5, y+.5, TILE-1, TILE-1);
         } else {
